@@ -1,0 +1,11 @@
+[run]
+source = .
+omit =
+    tests/*
+    */site-packages/*
+
+[report]
+omit =
+    tests/*
+    */site-packages/*
+show_missing = true
